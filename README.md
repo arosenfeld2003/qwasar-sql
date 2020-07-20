@@ -1,2 +1,6 @@
 # my-sqlite
-In order to understand SQL and databases, specifically related to building web apps using Ruby on Rails, I built a command line SQLITE interface in Ruby. It includes a Ruby class with methods that allow functionality similar to making database requests using SQL.
+
+
+These projects were completed in order to understand SQL and databases, specifically related to building web apps using Ruby on Rails.
+
+The repo includes MyRedisClass which will act like a Key-Value database, MySqliteRequest and MySelectQuery which mimic making database requests using SQL, as well as a command line SQLITE interface.
