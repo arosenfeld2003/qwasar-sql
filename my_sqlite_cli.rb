@@ -150,7 +150,7 @@ class My_sqlite_cli
         @join_on.push(join_query[0])
       when 'ON'
         # example usage:
-        # SELECT * FROM file1.csv JOIN (file2.csv) WHERE (column1 = column2)
+        # SELECT * FROM file1.csv JOIN (file2.csv) ON (column1 = column2)
         on_query = assign_command_values('ON')
         new_join_query = parse_equal_query(on_query)
         @join_on.unshift(new_join_query[0])
